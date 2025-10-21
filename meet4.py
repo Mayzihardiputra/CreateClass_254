@@ -18,4 +18,7 @@ try:
 
     pp = PersegiPanjang(panjang_input, lebar_input)
     print ("Keliling: ", pp.keliling(), "cm")
-    print("Luas: ", pp.luas(), "cm2" )
+    print("Luas: ", pp.luas(), "cm^2" )
+
+except ValueError:
+    print("Input harus berupa angka")
